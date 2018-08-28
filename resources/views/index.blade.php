@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Soporte - Listado</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="icon" href="https://cdn.icon-icons.com/icons2/37/PNG/512/bull_animal_4303.png">;
+    <script src="{{asset('js/app.js')}}"></script>
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/37/PNG/512/bull_animal_4303.png">
 </head>
 <body style="background-color: lightblue">
 <div class="container">
@@ -52,15 +53,18 @@
                     <form action="{{action('PassportController@destroy', $passport['id'])}}" method="post">
                         @csrf
                         <input name="_method" type="hidden" value="DELETE">
-                        <button class="btn btn-danger zoom" type="submit" onclick="return confirm('El registro será borrado, seguro?')">Borrar</button>
+                        {{--<button class="btn btn-danger zoom" type="submit" onclick="return confirm('El registro será borrado, seguro?')">Borrar</button>--}}
+                        <a href="#" class="btn btn-danger zoom" data-toggle="modal" data-target="#borrar">Borrar</a>
                     </form>
                 </td>
             </tr>
         @endforeach
         </tbody>
     </table>
-    <div class="col-md-3 offset-4">
+    @include('borrar')
+    <div class="col-md-12">
         {{ $passports->render() }}
-    </div></div>
+    </div>
+</div>
 </body>
 </html>

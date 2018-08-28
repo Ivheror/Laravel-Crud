@@ -23,3 +23,5 @@ Route::get('/inicio',function(){
    return view('main');
 });
 
+
+

@@ -4,6 +4,8 @@ namespace Prueba\Http\Controllers;
 use Prueba\Passport;
 use Illuminate\Http\Request;
 
+
+
 class PassportController extends Controller
 {
     public function create()
@@ -57,4 +59,8 @@ class PassportController extends Controller
         $passport->delete();
         return redirect('listas')->with('success','El registro ha sido borrado correctamente');
     }
+
+
 }
+
+
