@@ -74,9 +74,9 @@
     </form>
     <div class="col-md-12 text-center text-dark">
         <p>Copyright 2018 - Iván Hernando Ortega</p>
-        <i class="fa fa-facebook" style="font-size: 28px"></i>
-        <i class="fa fa-github" style="font-size: 28px"></i>
-        <i class="fa fa-twitter" style="font-size: 28px"></i>
+        <a href="https://www.facebook.com/ivan.hernando"><i class="fa fa-facebook" style="font-size: 28px;color:black"></i></a>
+        <a href="https://github.com/Ivheror"><i class="fa fa-github" style="font-size: 28px;color:black"></i>
+        <a href="https://www.twitter.com/Ivheror"><i class="fa fa-twitter" style="font-size: 28px;color:black"></i>
     </div>
 </div>
 <script type="text/javascript">

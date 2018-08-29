@@ -53,7 +53,6 @@
                     <form action="{{action('PassportController@destroy', $passport['id'])}}" method="post">
                         @csrf
                         <input name="_method" type="hidden" value="DELETE">
-                        {{--<button class="btn btn-danger zoom" type="submit" onclick="return confirm('El registro será borrado, seguro?')">Borrar</button>--}}
                         <a href="#" class="btn btn-danger zoom" data-toggle="modal" data-target="#borrar">Borrar</a>
                     </form>
                 </td>

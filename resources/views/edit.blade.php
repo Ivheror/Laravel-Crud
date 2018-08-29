@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Modificar usuario </title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="icon" href="https://cdn.icon-icons.com/icons2/37/PNG/512/bull_animal_4303.png">;
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/37/PNG/512/bull_animal_4303.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color: #fafad2">
@@ -56,9 +56,9 @@
     </form>
     <div class="col-md-12 text-center text-dark">
         <p>Copyright 2018 - Iván Hernando Ortega</p>
-        <i class="fa fa-facebook" style="font-size: 28px"></i>
-        <i class="fa fa-github" style="font-size: 28px"></i>
-        <i class="fa fa-twitter" style="font-size: 28px"></i>
+        <a href="https://www.facebook.com/ivan.hernando"><i class="fa fa-facebook" style="font-size: 28px;color:black"></i></a>
+        <a href="https://github.com/Ivheror"><i class="fa fa-github" style="font-size: 28px;color:black"></i>
+        <a href="https://www.twitter.com/Ivheror"><i class="fa fa-twitter" style="font-size: 28px;color:black"></i>
     </div>
 </div>
 </body>

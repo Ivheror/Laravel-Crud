@@ -11,23 +11,13 @@
 </head>
 <body>
 <div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
-                <a href="{{ route('register') }}">Register</a>
-            @endauth
-        </div>
-    @endif
     <div class="content">
         <div class="title m-b-md">
             IVHEROR
         </div>
         <div class="links">
-            <a href="/listas">Listado</a>
-            <a href="https://www.opensistemas.com/" target="_blank">Web</a>
+            <a href="/listas">Crud</a>
+            <a href="/web" target="_blank">Web</a>
             <a href="https://github.com/Ivheror" target="_blank">GitHub</a>
         </div>
     </div>

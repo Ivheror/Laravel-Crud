@@ -23,5 +23,7 @@ Route::get('/inicio',function(){
    return view('main');
 });
 
-
+Route::get('/web', function(){
+   return view('web');
+});
 
