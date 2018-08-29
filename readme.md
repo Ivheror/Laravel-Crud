@@ -9,8 +9,9 @@
 
 ## Crud in Laravel
 
-Hi, this is a simple crud using Laravel. not a guide, just show how Laravel works using its routes, controllers and blade views.
-First of all u have to create a database if u clone or download the project, in my case i called it "laravel" if u have another name on ur database make sure ur .env file is correctly configured using those credentials.
+Hi, this is a simple web using Laravel. not a guide, just show how Laravel works using its routes, controllers and blade views.
+On this website you'll find a CRUD and a simply website (no login) using Laravel 5.6.
+First of all u have to create a database if u clone or download the project( or if u want to use crud ), in my case i called it "laravel" if u have another name on ur database make sure ur .env file is correctly configured using those credentials.
 Hope u enjoy learning.
 Contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
