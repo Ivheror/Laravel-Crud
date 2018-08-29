@@ -62,7 +62,7 @@
             </div>
             <div class="col-lg-8 mx-auto">
                 <p class="text-faded mb-5">Web personal donde comparto mis trabajos y experiencias</p>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sigue leyendo</a>
+                <a class="btn btn-primary btn-xl js-scroll-trigger zoom" href="#about">Sigue leyendo</a>
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
                 <p class="text-faded mb-4">
                     Actualmente trabajando para el equipo de Soporte IT en Madrid, aunque estoy ubicado en las oficinas de Sevilla.
                 </p>
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                <a class="btn btn-light btn-xl js-scroll-trigger zoom" href="#services">Continúa</a>
             </div>
         </div>
     </div>
@@ -182,10 +182,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Ver
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Imagen
                             </div>
                         </div>
                     </div>
@@ -197,10 +197,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Ver
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Imagen
                             </div>
                         </div>
                     </div>
@@ -212,10 +212,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Ver
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Imagen
                             </div>
                         </div>
                     </div>
@@ -227,10 +227,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Ver
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Imagen
                             </div>
                         </div>
                     </div>
@@ -242,10 +242,10 @@
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Category
+                                Ver
                             </div>
                             <div class="project-name">
-                                Project Name
+                                Imagen
                             </div>
                         </div>
                     </div>
@@ -258,7 +258,7 @@
 <section class="bg-primary text-white">
     <div class="container text-center">
         <h2 class="mb-4">Sigue todos mis proyectos en Github!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="https://github.com/Ivheror" target="_blank">Acceder</a>
+        <a class="btn btn-light btn-xl zoom" href="https://github.com/Ivheror" target="_blank">Acceder</a>
     </div>
 </section>
 
@@ -280,6 +280,12 @@
                 <i class="far fa-envelope fa-3x mb-3 sr-icons"></i>
                 <p>
                     <a href="mailto:ivheror@gmail.com" class="m1">ivheror@gmail.com</a>
+                </p>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+                <i class="fab fa-facebook fa-3x mb-3 sr-icons"></i>
+                <p>
+                    <a href="https://www.facebook.com/ivan.hernandoortega" class="m1" target="_blank">Facebook</a>
                 </p>
             </div>
         </div>
